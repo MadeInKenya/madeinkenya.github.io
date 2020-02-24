@@ -4,7 +4,7 @@
 	http://madeinkenya.github.io
 
 	File: res/page.php
-    Description: functions for mik_page views
+        Description: functions for mik_page views
     
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
@@ -38,41 +38,62 @@
         return $mik_html;
     }
 
-    function mik_navigation($type, $mik_html = '')
-	{
-		$navigation = array();
-        $navigation['mobile'] = array('label' => 'Mobile', 'sub' => array('java' => 'Java', 'kotlin' => 'Kotlin', 'games' => 'Games'));
+    function mik_navigation($type)
+    {
+	$navigation = array();
+        $navigation['mobile'] = array('label' => 'Mobile', 'sub' => array('java' => 'Java', 'kotlin' => 'Kotlin', 'flutter' => 'Flutter'));
         $navigation['desktop'] = array('label' => 'Desktop');
         $navigation['web'] = array('label' => 'Web');
         $navigation['games'] = array('label' => 'Games');
 
+        $mik_html = '<nav class="chr-header__nav">';
         if ( $type == 'main'){
-            $mik_html = '';
-        } else {
-            $mik_html = '';
-        }
-		foreach ($navigation as $k => $a){
-			if ( $type == 'main'){
-                $mik_html .= '';
-            } else {
-                $mik_html .= '';
-            }
-        }
-        if ( $type == 'main'){
-            $mik_html .= '';
-        } else {
-            $mik_html .= '';
-        }
-		return $mik_html;
+		$mik_html .= '<ul class="chr-header__nav-list" role="menubar">';
+	} else {
+		$mik_html .= '<ul class="chr-header__drawer-nav-list">';
 	}
+
+	foreach ($navigation as $nv => $nav)
+	{                
+		if (isset($nav['sub']))
+		{
+			$mik_html .= '<li class="chr-header__nav-li chr-header__nav-li--sub" aria-level="1" tabindex="0" role="menuitem"
+			aria-haspopup="true" aria-expanded="false">';
+			$mik_html .= '<span class="chr-header__nav-li-link" tabindex="-1">'.$nav['label'].'</span>';
+			$mik_html .= '<ul class="chr-header__nav-sublist" role="menu">';
+			
+			foreach ($nav['sub'] as $sb => $sub)
+			{
+				$mik_html .= '<li class="chr-header__nav-li" aria-level="2" role="menuitem" tabindex="-1">';
+				$mik_html .= '<a href="./'.$nv.'#'.$sb.'" class=" chr-header__nav-li-link" ga-on="click"
+				ga-event-category="main_navigation" ga-event-action="clicked"
+				ga-event-label="'.$sb.'" data-g-event="main_navigation"
+				data-g-action="clicked" data-g-label="'.$sb.'">'.$sub.'</a>';
+				$mik_html .= '</li>';
+			}
+			$mik_html .= '</ul> </li>';
+		}
+		else 
+		{
+			$mik_html .= '<li class="chr-header__drawer-nav-li" aria-level="1">';
+			$mik_html .= '<a href="./'.$nv.'" target="_blank" rel="noopener" class=" chr-header__drawer-nav-li-link"
+			ga-on="click" ga-event-category="main_navigation" ga-event-action="clicked"
+			ga-event-label="extensions" data-g-event="main_navigation" data-g-action="clicked"
+			data-g-label="extensions">'.$nav['label'].'</a>';
+		}
+		$mik_html .= '</li>';
+	}
+	$mik_html .= '</ul></nav>';
+
+	return $mik_html;
+    }
     
     /**
      *	show the body content
     */
     function mik_body()
     {
-        $mik_html = '<body data-comp="EnvironmentDetect" data-locale="en_us" data-region="en_US" class="no-mobile">';
-        $mik_html .= '<div class="chr-header" id="js-header" aria-expanded="false" data-comp="Header" role="banner">';
+        $mik_html = '<div class="chr-header" id="js-header" aria-expanded="false" data-comp="Header" role="banner">';
         $mik_html .= '<div class="chr-header__wrapper">';
         $mik_html .= '<div class="chr-header__hamburger">';
         $mik_html .= '<div class="chr-header__hamburger-wrapper" id="js-hamburger-button">';
@@ -362,6 +383,35 @@ height="25">';
     }
 
     /**
+     * render a group of links at the footer
+     */
+    function mik_footer_links($footer_links, $mik_html = '')
+    {
+        foreach ($footer_links as $grp => $item)
+        {
+                $mik_html .= '<div class="chr-footer-links__group">';
+                $mik_html .= '<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">'.$grp.'</h4>';
+                $mik_html .= '<ul class="chr-footer-links__list">';
+
+                foreach ($item as $link)
+                {
+                        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
+                        if (isset($link['telegram']))
+                                $mik_html .= '<a href="https://t.me/'.$link['telegram'].'">'.$link['label'].'</a>';
+                        else if (isset($link['meetup']))
+                                $mik_html .= '<a href="https://meetup.com/'.$link['meetup'].'">'.$link['label'].'</a>';
+                        else if (isset($link['twitter']))
+                                $mik_html .= '<a href="https://twitter.com/'.$link['twitter'].'">'.$link['label'].'</a>';
+                        else $mik_html .= '<a href="'.$link['website'].'">'.$link['label'].'</a>';
+                        $mik_html .= '</li>';
+                }
+                $mik_html .= '</ul>';
+                $mik_html .= '</div>';
+        }
+	return $mik_html;
+    }
+   
+    /**
      * show the appropriate footer for a particular mik_page
      */
     function mik_footer()
@@ -370,103 +420,25 @@ height="25">';
         $mik_html .= '<div class="chr-footer-links">';
         $mik_html .= '<nav class="chr-footer-links__grid">';
 
-        $mik_html .= '<div class="chr-footer-links__group">';
-        $mik_html .= '<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">User Groups</h4>';
-        $mik_html .= '<ul class="chr-footer-links__list">';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://t.me/Android254/">Android 254</a> <a
-        href="https://twitter.com/254androiddevs">@254AndroidDevs</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://spectrum.chat/flutter-kenya">Flutter Kenya</a> <a
-        href="https://twitter.com/KenyaFlutterDev">@KenyaFlutterDev</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="http://t.me/kotlinkenya">Kotlin Kenya</a> <a
-        href="https://twitter.com/kotlinkenya">@KotlinKenya</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://ace.atlassian.com/nairobi/">Atlassian Nairobi</a> <a
-        href="https://twitter.com/acnairobi">@ACNAirobi</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://t.me/nairobijs">Nairobi JS</a> <a
-        href="https://twitter.com/nairobijs">@nairobijs</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://t.me/nairobigophers">Nairobi Gopher</a> <a href="#">@nairobigophers</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://t.me/nairobigophers">NairobiAI</a> <a
-        href="https://twitter.com/TheNairobiAI">@TheNairobiAI</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="#">Africa Game Developers</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="#">JVM Nairobi</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '</ul>';
-        $mik_html .= '</div>';
-        $mik_html .= '<div class="chr-footer-links__group">';
-        $mik_html .= '<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">Events & Meetups</h4>';
-        $mik_html .= '<ul class="chr-footer-links__list">';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://droidcon.co.ke">Droidcon KE</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://meetup.com/android254/">Android 254</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://meetup.com/KotlinKenya/">Kotlin Kenya</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://www.meetup.com/ACNairobi/">Atlassian Nairobi</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://www.meetup.com/nairobi-jvm/">Nairobi JVM</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://www.meetup.com/Nairobi-Gophers/">Nairobi Gopher</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://www.meetup.com/laravel-nairobi/">Laravel Nairobi</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://www.meetup.com/NairobiAI/">NairobiAI</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="https://www.meetup.com/nairobi-js/">Nairobi JS</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '</ul>';
-        $mik_html .= '</div>';
+        $mik_html .= mik_footer_links(mik_footer_links);
 
-        $mik_html .= '<div class="chr-footer-links__group">';
-        $mik_html .= '<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">Social Media</h4>';
-        $mik_html .= '<ul class="chr-footer-links__list">';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="#">Facebook</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="#">Twitter</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '<li class="chr-footer-links__list-item footer-other-platform">';
-        $mik_html .= '<a href="#">Youtube</a>';
-        $mik_html .= '</li>';
-        $mik_html .= '</ul>';
-        $mik_html .= '</div>';
         $mik_html .= '</nav>';
         $mik_html .= '</div>';
+        
         $mik_html .= '</footer>';
+        return $mik_html;
+    }
 
-        $mik_html .= '<script src="./res/ScrollMagic.min.js.download" nonce=""></script>';
+    /**
+     *	links to scripts
+    */
+    function mik_scripts()
+    {
+        $mik_html = '<script src="./res/ScrollMagic.min.js.download" nonce=""></script>';
         $mik_html .= '<script src="./res/animation.gsap.min.js.download" nonce=""></script>';
         $mik_html .= '<script src="./res/main.v2.min.js.download" nonce=""></script>';
         $mik_html .= '<script src="./res/installer.min.js.download" nonce=""></script>';
 
-        $mik_html .= '</body>';
-
-        $mik_html .= '</html>';
         return $mik_html;
     }
 
@@ -476,6 +448,7 @@ height="25">';
     function mik_page_view($page)
     {   
         echo mik_header($page);
+        echo '<body data-comp="EnvironmentDetect" data-locale="en_us" data-region="en_US" class="no-mobile">';
         echo mik_body();
 
         echo mik_navigation('mobile');
@@ -486,6 +459,11 @@ height="25">';
 
         echo mik_main($page);
         echo mik_footer();
+        
+        echo mik_scripts();
+
+        echo '</body>';
+        echo '</html>';
     }
 
     

@@ -482,10 +482,7 @@
 
     <script src="./src/ScrollMagic.min.js.download" nonce=""></script>
     <script src="./src/animation.gsap.min.js.download" nonce=""></script>
-    <!--<![endif]-->
-    <!--[if (gte IE 10)|!(IE)]><!-->
     <script src="./src/main.v2.min.js.download" nonce=""></script>
-    <!--<![endif]-->
     <script src="./src/installer.min.js.download" nonce=""></script>
 
 </body>

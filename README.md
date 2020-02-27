@@ -25,7 +25,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="C#"> </a>C#
 ## <a name="CSS"> </a>CSS
 ## <a name="Dart"> </a>Dart
-* [flutter_form_builder](https://github.com/danvick/flutter_form_builder) - Alix, a Chrome extension for a11y.css. **By [@danvickmiller](https://twitter.com/danvickmiller)**
+* [flutter_form_builder](https://github.com/danvick/flutter_form_builder) - Simple form builder for Flutter. **By [@danvickmiller](https://twitter.com/danvickmiller)**
 ## <a name="Go"> </a>Go
 ## <a name="Java"> </a>Java
 ## <a name="JavaScript"> </a>JavaScript

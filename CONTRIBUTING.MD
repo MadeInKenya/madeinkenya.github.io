@@ -16,11 +16,14 @@ To add a new project to the collection, please ensure they meet the following re
 
 * Add the project to it's appropriate language section in an alphabetical fashion.
 
-### Template
+### Contributing to the README List
 Copy the template below, edit it to contain correct information, then add it under the appropriate language section, in the correct alphabetic order.
 ```
 
 * [madeinkenya.github.io](https://github.com/MadeInKenya/madeinkenya.github.io) - A List of Opensource Software Projects made and maintained by Kenyans **By [@MadeInKe254](https://twitter.com/MadeInKe254)**
 
 ```
+
+### Contributing to the website
+* COMING SOON...
 

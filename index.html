@@ -11,8 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css?family=Google+Sans:400,500%7CRoboto:400,500%7C&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese&amp;display=swap"
         rel="preconnect stylesheet" crossorigin="">
-    <link rel="stylesheet" href="./src/mik_styles.css">
-    <link rel="stylesheet" href="./src/main.v2.min.css" as="style" nonce="">
+    <link rel="stylesheet" href="./res/mik_styles.css">
+    <link rel="stylesheet" href="./res/main.v2.min.css" as="style" nonce="">
 </head>
 
 <body data-comp="EnvironmentDetect" data-locale="en_us" data-region="en_US" class="no-mobile">
@@ -167,7 +167,7 @@
             <div class="chr-full-bleed-hero home" id="chr-hero">
                 <div class="chr-wrapper">
                     <div class="chr-full-bleed-hero__grid chr-grid">
-                        <img class="chr-full-bleed-hero__left-graphic" src="./src/illo_left.png" alt="Hero right">
+                        <img class="chr-full-bleed-hero__left-graphic" src="./res/illo_left.png" alt="Hero right">
                         <div class="chr-grid__col chr-grid__col--6 chr-grid__col--offset-3 chr-grid__col--align-middle">
                             <img src="madeinkenya.png" alt="Made in Kenya" class="chr-full-bleed-hero__image"
                                 data-img-fallback="/chrome/static/images/fallback/chrome-logo.png">
@@ -234,7 +234,7 @@
                         </div>
                         <div
                             class="chr-grid__col chr-grid__col--6 two-col-split__image-wrapper  chr-grid__col-l--offset-1 ">
-                            <img data-src="/src/mobile.jpg" alt="Mobile in Kenya" src="./src/mobile.jpg">
+                            <img data-src="/res/mobile.jpg" alt="Mobile in Kenya" src="./res/mobile.jpg">
                         </div>
                     </div>
                 </div>
@@ -277,7 +277,7 @@
                         </div>
                         <div
                             class="chr-grid__col chr-grid__col--6 two-col-split__image-wrapper  two-col-split__image-left chr-grid__col--4 ">
-                            <img alt="Desktop Devepment in Kenya" src="./src/desktop.jpg">
+                            <img alt="Desktop Devepment in Kenya" src="./res/desktop.jpg">
                         </div>
                     </div>
                 </div>
@@ -320,7 +320,7 @@
                         </div>
                         <div
                             class="chr-grid__col chr-grid__col--6 two-col-split__image-wrapper  chr-grid__col-l--offset-1 ">
-                            <img alt="Web Development" src="./src/web.jpg">
+                            <img alt="Web Development" src="./res/web.jpg">
                         </div>
                     </div>
                 </div>
@@ -364,7 +364,7 @@
                         <div
                             class="chr-grid__col chr-grid__col--6 two-col-split__image-wrapper  two-col-split__image-left chr-grid__col--4 ">
                             <picture data-comp="LazyLoader" class="js-lazy-load">
-                                <img alt="Game development" src="./src/game.png">
+                                <img alt="Game development" src="./res/game.png">
                             </picture>
                         </div>
                     </div>
@@ -387,10 +387,12 @@
             </div>
         </section>
     </div>
-    
-
-    <script src="./src/ScrollMagic.min.js.download" nonce=""></script>
-    <script src="./src/animation.gsap.min.js.download" nonce=""></script>
+    <footer class="chr-footer" data-comp="Footer">
+        <div class="chr-footer-links">
+            <nav class="chr-footer-links__grid" id="mik_footer_groups"></nav>
+        </div>
+    </footer>
+    <script src="./res/ScrollMagic.min.js.download" nonce=""></script>
     <script src="./config.js" nonce=""></script>
     <script src="./base.js" nonce=""></script>
 

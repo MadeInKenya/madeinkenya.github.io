@@ -30,6 +30,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Java"> </a>Java
 ## <a name="JavaScript"> </a>JavaScript
 ## <a name="Kotlin"> </a>Kotlin
+* [ElegantDialog](https://github.com/muigukenneth/ElegantDialog) - A beautiful, customizable and interactive dialog for Android written in Kotlin/Java 😍. **By [@keshwhatsup](https://twitter.com/keshwhatsup)**
 ## <a name="PHP"> </a>PHP
 ## <a name="Python"> </a>Python
 ## <a name="Ruby"> </a>Ruby

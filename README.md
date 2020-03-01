@@ -21,18 +21,33 @@ For more details on how to contribute please see our little [Contribution Guidel
 </p>
 
 ## <a name="C"> </a>C
+
 ## <a name="C++"> </a>C++
 * [winapi-code-snippets](https://github.com/JacksiroKe/winapi-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
+
 ## <a name="C#"> </a>C#
+
 ## <a name="CSS"> </a>CSS
+
 ## <a name="Dart"> </a>Dart
+* [flutter_chips_input](https://github.com/danvick/flutter_chips_input) - Flutter input field that takes in Material Chips as entries. **By [@danvickmiller](https://twitter.com/danvickmiller)**
 * [flutter_form_builder](https://github.com/danvick/flutter_form_builder) - Simple form builder for Flutter. **By [@danvickmiller](https://twitter.com/danvickmiller)**
+* [flutter_touch_spin](https://github.com/danvick/flutter_touch_spin) - Simple number input spinner Widget for Flutter. **By [@danvickmiller](https://twitter.com/danvickmiller)**
+
 ## <a name="Go"> </a>Go
+
 ## <a name="Java"> </a>Java
+
 ## <a name="JavaScript"> </a>JavaScript
+* [ngx-translate-nativescript-loader](https://github.com/danvick/ngx-translate-nativescript-loader) - A loader for `ngx-translate` internationalization library that loads locally stored translations for NativeScript Angular. **By [@danvickmiller](https://twitter.com/danvickmiller)**
+
 ## <a name="Kotlin"> </a>Kotlin
 * [ElegantDialog](https://github.com/muigukenneth/ElegantDialog) - A beautiful, customizable and interactive dialog for Android written in Kotlin/Java 😍. **By [@keshwhatsup](https://twitter.com/keshwhatsup)**
+
 ## <a name="PHP"> </a>PHP
+
 ## <a name="Python"> </a>Python
+
 ## <a name="Ruby"> </a>Ruby
+
 ## <a name="Other"> </a>Other

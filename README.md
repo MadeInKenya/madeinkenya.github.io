@@ -22,6 +22,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## <a name="C"> </a>C
 ## <a name="C++"> </a>C++
+* [winapi-code-snippets](https://github.com/JacksiroKe/cpp-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
 ## <a name="C#"> </a>C#
 ## <a name="CSS"> </a>CSS
 ## <a name="Dart"> </a>Dart

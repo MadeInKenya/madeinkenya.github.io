@@ -10,50 +10,50 @@ var mik_footer = document.getElementById('mik_footer_groups');
 var grouparr = '{ "groups" : [' +
 '{ "title": "User Groups (Sites)",' +
 '"links": [' +
-        '{ "website": "#", "label": "Android 254" },' +
-        '{ "website": "#", "label": "Kotlin Kenya" },' +
-        '{ "website": "#", "label": "Flutter Kenya" },' +
-        '{ "website": "https://ace.atlassian.com/nairobi/", "label": "Atlassian Nairobi" },' +
-        '{ "website": "#", "label": "Nairobi JS" },' +
-        '{ "website": "#", "label": "Nairobi Gophers" },' +
-        '{ "website": "#", "label": "Nairobi AI" },' +
-        '{ "website": "#", "label": "Africa Game Developers" },' +
-        '{ "website": "#", "label": "JVM Nairobi" }' +
+        '{ "link_type" : "website", "link_url" : "#", "link_label": "Android 254" },' +
+        '{ "link_type" : "website", "link_url" : "#", "link_label": "Kotlin Kenya" },' +
+        '{ "link_type" : "website", "link_url" : "#", "link_label": "Flutter Kenya" },' +
+        '{ "link_type" : "website", "link_url" : "https://ace.atlassian.com/nairobi/", "link_label": "Atlassian Nairobi" },' +
+        '{ "link_type" : "website", "link_url" : "#", "link_label": "Nairobi JS" },' +
+        '{ "link_type" : "website", "link_url" : "#", "link_label": "Nairobi Gophers" },' +
+        '{ "link_type" : "website", "link_url" : "#", "link_label": "Nairobi AI" },' +
+        '{ "link_type" : "website", "link_url" : "#", "link_label": "Africa Game Developers" },' +
+        '{ "link_type" : "website", "link_url" : "#", "link_label": "JVM Nairobi" }' +
     ']' +
 '},' +
 '{ "title": "User Groups (Chats)",' +
 '"links": [' +
-        '{ "telegram": "Android254", "label": "Android 254" },' +
-        '{ "telegram": "kotlinkenya", "label": "Kotlin Kenya" },' +
-        '{ "website": "https://spectrum.chat/flutter-kenya", "label": "Flutter Kenya" },' +
-        '{ "telegram": "augnairobi", "label": "Atlassian Nairobi" },' +
-        '{ "telegram": "nairobijs", "label": "Nairobi JS" },' +
-        '{ "telegram": "nairobigophers", "label": "Nairobi Gophers" },' +
-        '{ "telegram": "AfricaGameDevelopers", "label": "Africa Game Developers" } ' +
+        '{ "link_type" : "telegram", "link_url" : "Android254", "link_label": "Android 254" },' +
+        '{ "link_type" : "telegram", "link_url" : "kotlinkenya", "link_label": "Kotlin Kenya" },' +
+        '{ "link_type" : "website", "link_url" : "https://spectrum.chat/flutter-kenya", "link_label": "Flutter Kenya" },' +
+        '{ "link_type" : "telegram", "link_url" : "augnairobi", "link_label": "Atlassian Nairobi" },' +
+        '{ "link_type" : "telegram", "link_url" : "nairobijs", "link_label": "Nairobi JS" },' +
+        '{ "link_type" : "telegram", "link_url" : "nairobigophers", "link_label": "Nairobi Gophers" },' +
+        '{ "link_type" : "telegram", "link_url" : "AfricaGameDevelopers", "link_label": "Africa Game Developers" } ' +
     ']' +
 '},' +
 '{ "title": "User Groups (Twitter)",' +
 '"links": [' +
-        '{ "twitter": "droidconKe", "label": "@DroidconKE" },' +
-        '{ "twitter": "254AndroidDevs", "label": "@254AndroidDevs" },' +
-        '{ "twitter": "KotlinKenya", "label": "@KotlinKenya" },' +
-        '{ "twitter": "KenyaFlutterDev", "label": "@KenyaFlutterDev" },' +
-        '{ "twitter": "ACNAirobi", "label": "@ACNAirobi" },' +
-        '{ "twitter": "nairobijs", "label": "@NairobiJS" },' +
-        '{ "twitter": "TheNairobiAI", "label": "@TheNairobiAI" }' +
+        '{ "link_type" : "twitter", "link_url" : "droidconKe", "link_label": "@DroidconKE" },' +
+        '{ "link_type" : "twitter", "link_url" : "254AndroidDevs", "link_label": "@254AndroidDevs" },' +
+        '{ "link_type" : "twitter", "link_url" : "KotlinKenya", "link_label": "@KotlinKenya" },' +
+        '{ "link_type" : "twitter", "link_url" : "KenyaFlutterDev", "link_label": "@KenyaFlutterDev" },' +
+        '{ "link_type" : "twitter", "link_url" : "ACNAirobi", "link_label": "@ACNAirobi" },' +
+        '{ "link_type" : "twitter", "link_url" : "nairobijs", "link_label": "@NairobiJS" },' +
+        '{ "link_type" : "twitter", "link_url" : "TheNairobiAI", "link_label": "@TheNairobiAI" }' +
     ']' +
 '},' +
 '{ "title": "Events and Meetups",' +
 '"links": [' +
-        '{ "meetup": "Android254", "label": "Android 254" },' +
-        '{ "meetup": "KotlinKenya", "label": "Kotlin Kenya" },' +
-        '{ "meetup": "ACNairobi", "label": "Atlassian Nairobi" },' +
-        '{ "meetup": "nairobi-js", "label": "Nairobi JS" },' +
-        '{ "meetup": "laravel-nairobi", "label": "Laravel Nairobi" },' +
-        '{ "meetup": "Nairobi-Gophers", "label": "Nairobi Gophers" },' +
-        '{ "meetup": "NairobiAI", "label": "Nairobi AI" },' +
-        '{ "meetup": "Nairobi-Game-Development-Meetup", "label": "Nairobi Game Development Meetup" },' +
-        '{ "meetup": "nairobi-jvm", "label": "JVM Nairobi" }' +
+        '{ "link_type" : "meetup", "link_url" : "Android254", "link_label": "Android 254" },' +
+        '{ "link_type" : "meetup", "link_url" : "KotlinKenya", "link_label": "Kotlin Kenya" },' +
+        '{ "link_type" : "meetup", "link_url" : "ACNairobi", "link_label": "Atlassian Nairobi" },' +
+        '{ "link_type" : "meetup", "link_url" : "nairobi-js", "link_label": "Nairobi JS" },' +
+        '{ "link_type" : "meetup", "link_url" : "laravel-nairobi", "link_label": "Laravel Nairobi" },' +
+        '{ "link_type" : "meetup", "link_url" : "Nairobi-Gophers", "link_label": "Nairobi Gophers" },' +
+        '{ "link_type" : "meetup", "link_url" : "NairobiAI", "link_label": "Nairobi AI" },' +
+        '{ "link_type" : "meetup", "link_url" : "Nairobi-Game-Development-Meetup", "link_label": "Nairobi Game Development" },' +
+        '{ "link_type" : "meetup", "link_url" : "nairobi-jvm", "link_label": "JVM Nairobi" }' +
     ']' +
 '}' +
 ']}';
@@ -70,8 +70,16 @@ for (var group in data.groups)
     for (var link in data.groups[group].links) 
     {
         var_html = var_html + '<li class="chr-footer-links__list-item footer-other-platform">';
-        var_html = var_html + '<a href="#">';
-        var_html = var_html + data.groups[group].links[link].label + '</a>';
+        var_html = var_html + '<a href="';
+
+        if (data.groups[group].links[link].link_type == 'telegram') var_html = var_html + 'https://t.me/';
+        else if (data.groups[group].links[link].link_type == 'twitter') var_html = var_html + 'https://twitter.com/';
+        else if (data.groups[group].links[link].link_type == 'facebook') var_html = var_html + 'https://facebook.com/';
+        else if (data.groups[group].links[link].link_type == 'youtube') var_html = var_html + 'https://youtube.com/';
+        else if (data.groups[group].links[link].link_type == 'meetup') var_html = var_html + 'https://meetup.com/';
+        
+        var_html = var_html + data.groups[group].links[link].link_url + '">';
+        var_html = var_html + data.groups[group].links[link].link_label + '</a>';
         var_html = var_html + '</li>';
     }
 

@@ -45,6 +45,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 * [ElegantDialog](https://github.com/muigukenneth/ElegantDialog) - A beautiful, customizable and interactive dialog for Android written in Kotlin/Java 😍. **By [@keshwhatsup](https://twitter.com/keshwhatsup)**
 
 ## <a name="PHP"> </a>PHP
+* [Laravel Nova Timenow](https://github.com/richardkeep/nova-timenow) - A Laravel Nova card to display the current time from different timezones in the world ⏰. **By [@richard_keep](https://twitter.com/richard_keep)**
 
 ## <a name="Python"> </a>Python
 

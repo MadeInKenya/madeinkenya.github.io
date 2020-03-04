@@ -1,4 +1,4 @@
-# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \] MadeInKenya
+# \[ 🚧 MadeInKenya 👷‍♀️⛏👷🔧️👷🔧 🚧 \] 
 
 We have created this repo so that we can use it to document other resourceful repositories by Kenyans which are currently having a global impact. 
 
@@ -6,7 +6,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## Appreciating ... Code Made in Kenya
 
-### <p align="center"><a href="#C">C/C++</a> |<a href="#C#">C#</a> |<a href="#CSS">CSS</a> |<a href="#Dart">Dart</a> |<a href="#Go">Go</a> |<a href="#Java">Java</a> |<a href="#JavaScript">JavaScript</a> |<a href="#Kotlin">Kotlin</a> |<a href="#PHP">PHP</a> |<a href="#Python">Python</a> |<a href="#Ruby">Ruby</a> |<a href="#Other">Other</a></p>
+### <p align="center"><a href="#C">C/C++</a> | <a href="#C#">C#</a> | <a href="#CSS">CSS</a> | <a href="#Dart">Dart</a> | <a href="#Go">Go</a> | <a href="#Java">Java</a> | <a href="#JavaScript">JavaScript</a> | <a href="#Kotlin">Kotlin</a> | <a href="#PHP">PHP</a> | <a href="#Python">Python</a> | <a href="#Ruby">Ruby</a> | <a href="#Other">Other</a></p>
 
 ## <a name="C"> </a>C/C++
 * [winapi-code-snippets](https://github.com/JacksiroKe/winapi-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
@@ -29,10 +29,13 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## <a name="Java"> </a>Java
 * [AndroidMPesaAPI](https://github.com/jumaallan/AndroidMPesaAPI) - Android MPESA SDK Library to provide smooth MPESA Experience in Android - Dubbed Daraja. **By [@_jumaallan](https://twitter.com/_jumaallan)**
+* [LNMOnlineAndroidSample](https://github.com/safaricom/LNMOnlineAndroidSample) - Lipa Na MPESA Online (STK Push) Android Sample Application. This app demonstrates an e-commerce purchase and checkout process via Mpesa and Daraja smile. **By [@safaricom](#)**
 * [School-Management-System-JavaFX](https://github.com/k33ptoo/School-Management-System-JavaFX) - A sample JavaFX management system GUI. **By [@k33ptoo](https://twitter.com/k33ptoo)**
 
 ## <a name="JavaScript"> </a>JavaScript
 * [ngx-translate-nativescript-loader](https://github.com/danvick/ngx-translate-nativescript-loader) - A loader for `ngx-translate` internationalization library that loads locally stored translations for NativeScript Angular. **By [@danvickmiller](https://twitter.com/danvickmiller)**
+* [postgres-express-node-tutorial](https://github.com/waiyaki/postgres-express-node-tutorial) - Repository hosting code for the "Getting Started With NodeJS, Express and Postgres Using Sequelize" blogpost. **By [@waiyaki](#)**
+* [react-startpack](https://github.com/joykare/react-startpack) - Bare minimum setup for a simple react app. Should save you a lot of time. You are welcome!! React-Webpack-Babel. **By [@joykare_](https://twitter.com/joykare_)**
 
 ## <a name="Kotlin"> </a>Kotlin
 * [DevFest2019](https://github.com/jumaallan/devfest2019) - An App which shows how to use Dynamic Modules, MVVM, Room, DI, App Bundles and Internal App Sharing (PlayStore), in Kotlin). **By [@_jumaallan](https://twitter.com/_jumaallan)**
@@ -42,10 +45,13 @@ For more details on how to contribute please see our little [Contribution Guidel
 * [Laravel Nova Timenow](https://github.com/richardkeep/nova-timenow) - A Laravel Nova card to display the current time from different timezones in the world ⏰. **By [@richard_keep](https://twitter.com/richard_keep)**
 
 ## <a name="Python"> </a>Python
+* [pynbo-blog](https://github.com/Python-Nairobi/pynbo-blog) - Python Nairobi Blog. **By [@pynbo](http://twitter.com/pynbo/)**
+* [mpesa_api](https://github.com/lemaiyan/mpesa_api) - Mpesa B2C, C2B, STKPush Django framework based on the new Api's. **By [@lemaiyan](#)**
+* [mpesa-rest-api](https://github.com/urandu/mpesa-rest-api) - mpesa rest api converts the mpesa api to a RESTful API that is easy for developers to use instead of the current SOAP web service provided by mpesa. **By [@urandu](#)**
 
 ## <a name="Ruby"> </a>Ruby
 
 ## <a name="Other"> </a>Other
 * [ReadMe-MasterTemplates](https://github.com/tamzi/ReadMe-MasterTemplates) - How to write good ReadMe docs for all your projects on github.. **By [@tamrefrankhttps://twitter.com/tamrefrank](https://twitter.com/tamrefrank)**
 
-# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \] MadeInKenya
+# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \]

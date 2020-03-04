@@ -5,8 +5,7 @@ We have created this repo so that we can use it to document other resourceful re
 For more details on how to contribute please see our little [Contribution Guidelines](https://github.com/MadeInKenya/madeinkenya.github.io/blob/master/CONTRIBUTING.MD). We hope you will help us make this repo useful in days to come
 
 <p align="center">
-  <a href="#C">C</a> | 
-  <a href="#C++">C++</a> | 
+  <a href="#C">C/C++</a> | 
   <a href="#C#">C#</a> | 
   <a href="#CSS">CSS</a> | 
   <a href="#Dart">Dart</a> | 
@@ -20,12 +19,14 @@ For more details on how to contribute please see our little [Contribution Guidel
   <a href="#Other">Other</a>
 </p>
 
-## <a name="C"> </a>C
-
-## <a name="C++"> </a>C++
+## <a name="C"> </a>C/C++
 * [winapi-code-snippets](https://github.com/JacksiroKe/winapi-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
 
 ## <a name="C#"> </a>C#
+* [AnimatedSplashScreens](https://github.com/bunifu-framework/AnimatedSplashScreens) - Awesome set of animated WinForms splash screen designs. **By [@Bunifu](https://twitter.com/Bunifu)**
+* [Base64-Class](https://github.com/KimTooFlex/Base64-Class) - Easy Base 64 encoding and decoding library (text/Objects/Files) Supports serialization - c# - WPF/Winforms/ ASP.Net. **By [@KimTooOfficial](https://twitter.com/KimTooOfficial)**
+* [Finance-Manager---Bunifu-UI](https://github.com/KimTooFlex/Finance-Manager---Bunifu-UI) - Bunifu UI C# winform template . **By [@KimTooOfficial](https://twitter.com/KimTooOfficial)**
+* [SharpClipboard](https://github.com/Willy-Kimura/SharpClipboard) - A library for anonymously monitoring clipboard entries. **By [@WillyKimura](https://twitter.com/WillyKimura)**
 
 ## <a name="CSS"> </a>CSS
 

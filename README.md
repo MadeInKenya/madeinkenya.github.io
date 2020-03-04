@@ -1,23 +1,12 @@
-## Welcome to Made in Kenya
+# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \] MadeInKenya
 
 We have created this repo so that we can use it to document other resourceful repositories by Kenyans which are currently having a global impact. 
 
 For more details on how to contribute please see our little [Contribution Guidelines](https://github.com/MadeInKenya/madeinkenya.github.io/blob/master/CONTRIBUTING.MD). We hope you will help us make this repo useful in days to come
 
-<p align="center">
-  <a href="#C">C/C++</a> | 
-  <a href="#C#">C#</a> | 
-  <a href="#CSS">CSS</a> | 
-  <a href="#Dart">Dart</a> | 
-  <a href="#Go">Go</a> | 
-  <a href="#Java">Java</a> | 
-  <a href="#JavaScript">JavaScript</a> | 
-  <a href="#Kotlin">Kotlin</a> | 
-  <a href="#PHP">PHP</a> | 
-  <a href="#Python">Python</a> | 
-  <a href="#Ruby">Ruby</a> | 
-  <a href="#Other">Other</a>
-</p>
+## Appreciating ... Code Made in Kenya
+
+### <p align="center"><a href="#C">C/C++</a> |<a href="#C#">C#</a> |<a href="#CSS">CSS</a> |<a href="#Dart">Dart</a> |<a href="#Go">Go</a> |<a href="#Java">Java</a> |<a href="#JavaScript">JavaScript</a> |<a href="#Kotlin">Kotlin</a> |<a href="#PHP">PHP</a> |<a href="#Python">Python</a> |<a href="#Ruby">Ruby</a> |<a href="#Other">Other</a></p>
 
 ## <a name="C"> </a>C/C++
 * [winapi-code-snippets](https://github.com/JacksiroKe/winapi-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
@@ -27,6 +16,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 * [Base64-Class](https://github.com/KimTooFlex/Base64-Class) - Easy Base 64 encoding and decoding library (text/Objects/Files) Supports serialization - c# - WPF/Winforms/ ASP.Net. **By [@KimTooOfficial](https://twitter.com/KimTooOfficial)**
 * [Finance-Manager---Bunifu-UI](https://github.com/KimTooFlex/Finance-Manager---Bunifu-UI) - Bunifu UI C# winform template . **By [@KimTooOfficial](https://twitter.com/KimTooOfficial)**
 * [SharpClipboard](https://github.com/Willy-Kimura/SharpClipboard) - A library for anonymously monitoring clipboard entries. **By [@WillyKimura](https://twitter.com/WillyKimura)**
+* [Social-APP-Dark-UI](https://github.com/bunifu-framework/Social-APP-Dark-UI) - Social App dark UI built with Bunifu UI Framework Ultimate Bundle. **By [@Bunifu](https://twitter.com/Bunifu)**
 
 ## <a name="CSS"> </a>CSS
 
@@ -38,11 +28,14 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Go"> </a>Go
 
 ## <a name="Java"> </a>Java
+* [AndroidMPesaAPI](https://github.com/jumaallan/AndroidMPesaAPI) - Android MPESA SDK Library to provide smooth MPESA Experience in Android - Dubbed Daraja. **By [@_jumaallan](https://twitter.com/_jumaallan)**
+* [School-Management-System-JavaFX](https://github.com/k33ptoo/School-Management-System-JavaFX) - A sample JavaFX management system GUI. **By [@k33ptoo](https://twitter.com/k33ptoo)**
 
 ## <a name="JavaScript"> </a>JavaScript
 * [ngx-translate-nativescript-loader](https://github.com/danvick/ngx-translate-nativescript-loader) - A loader for `ngx-translate` internationalization library that loads locally stored translations for NativeScript Angular. **By [@danvickmiller](https://twitter.com/danvickmiller)**
 
 ## <a name="Kotlin"> </a>Kotlin
+* [DevFest2019](https://github.com/jumaallan/devfest2019) - An App which shows how to use Dynamic Modules, MVVM, Room, DI, App Bundles and Internal App Sharing (PlayStore), in Kotlin). **By [@_jumaallan](https://twitter.com/_jumaallan)**
 * [ElegantDialog](https://github.com/muigukenneth/ElegantDialog) - A beautiful, customizable and interactive dialog for Android written in Kotlin/Java 😍. **By [@keshwhatsup](https://twitter.com/keshwhatsup)**
 
 ## <a name="PHP"> </a>PHP
@@ -53,3 +46,6 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Ruby"> </a>Ruby
 
 ## <a name="Other"> </a>Other
+* [ReadMe-MasterTemplates](https://github.com/tamzi/ReadMe-MasterTemplates) - How to write good ReadMe docs for all your projects on github.. **By [@tamrefrankhttps://twitter.com/tamrefrank](https://twitter.com/tamrefrank)**
+
+# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \] MadeInKenya

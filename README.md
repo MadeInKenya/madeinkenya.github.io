@@ -48,6 +48,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 * [pynbo-blog](https://github.com/Python-Nairobi/pynbo-blog) - Python Nairobi Blog. **By [@pynbo](http://twitter.com/pynbo/)**
 * [mpesa_api](https://github.com/lemaiyan/mpesa_api) - Mpesa B2C, C2B, STKPush Django framework based on the new Api's. **By [@lemaiyan](#)**
 * [mpesa-rest-api](https://github.com/urandu/mpesa-rest-api) - mpesa rest api converts the mpesa api to a RESTful API that is easy for developers to use instead of the current SOAP web service provided by mpesa. **By [@urandu](#)**
+* [pympesa|daraja-mpesa](https://github.com/TralahM/pympesa) - A python wrapper around mpesa's daraja API making it easy for developers to integrate MPESA into their python code.. **By [@TralahM](https://github.com/TralahM)**
 
 ## <a name="Ruby"> </a>Ruby
 

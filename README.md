@@ -1,4 +1,5 @@
-# \[ 🚧 MadeInKenya 👷‍♀️⛏👷🔧️👷🔧 🚧 \] 
+![Made in Kenya Banner](https://github.com/MadeInKenya/madeinkenya.github.io/blob/master/mik_banner.png "Made in Kenya Banner")
+# \[ 🚧👷‍♀️⛏ Made In Kenya 🔧️😍👷🚧 \] 
 
 We have created this repo so that we can use it to document other resourceful repositories by Kenyans which are currently having a global impact. 
 
@@ -57,4 +58,4 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Other"> </a>Other
 * [ReadMe-MasterTemplates](https://github.com/tamzi/ReadMe-MasterTemplates) - How to write good ReadMe docs for all your projects on github.. **By [@tamrefrankhttps://twitter.com/tamrefrank](https://twitter.com/tamrefrank)**
 
-# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \]
+# \[ 🚧👷‍♀️⛏ Work in Progress 🔧️😍👷🚧 \] 

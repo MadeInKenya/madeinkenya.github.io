@@ -40,6 +40,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Kotlin"> </a>Kotlin
 * [DevFest2019](https://github.com/jumaallan/devfest2019) - An App which shows how to use Dynamic Modules, MVVM, Room, DI, App Bundles and Internal App Sharing (PlayStore), in Kotlin). **By [@_jumaallan](https://twitter.com/_jumaallan)**
 * [ElegantDialog](https://github.com/muigukenneth/ElegantDialog) - A beautiful, customizable and interactive dialog for Android written in Kotlin/Java 😍. **By [@keshwhatsup](https://twitter.com/keshwhatsup)**
+* [CleanArch-MVVM-ArchComponents](https://github.com/odaridavid/Clean-MVVM-ArchComponents) - An Android app consuming Star Wars API [RESTful].Built with clean architecture + MVVM pattern, Dagger2 , Coroutines ,Architecture Components, Data Binding , Firebase and includes Unit $ UI Tests  **By [@_davidodari](https://twitter.com/_davidodari)**
 
 ## <a name="PHP"> </a>PHP
 * [Laravel Nova Timenow](https://github.com/richardkeep/nova-timenow) - A Laravel Nova card to display the current time from different timezones in the world ⏰. **By [@richard_keep](https://twitter.com/richard_keep)**

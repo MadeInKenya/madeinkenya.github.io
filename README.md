@@ -46,6 +46,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 * [Laravel Nova Timenow](https://github.com/richardkeep/nova-timenow) - A Laravel Nova card to display the current time from different timezones in the world ⏰. **By [@richard_keep](https://twitter.com/richard_keep)**
 
 ## <a name="Python"> </a>Python
+* [Chatz-UI](https://github.com/ANSH3LL/Chatz-UI) - Desktop chat UI with emoji support built with python and pyqt **By [@ansh3ll](https://github.com/ANSH3LL)**
 * [pynbo-blog](https://github.com/Python-Nairobi/pynbo-blog) - Python Nairobi Blog. **By [@pynbo](http://twitter.com/pynbo/)**
 * [mpesa_api](https://github.com/lemaiyan/mpesa_api) - Mpesa B2C, C2B, STKPush Django framework based on the new Api's. **By [@lemaiyan](#)**
 * [mpesa-rest-api](https://github.com/urandu/mpesa-rest-api) - mpesa rest api converts the mpesa api to a RESTful API that is easy for developers to use instead of the current SOAP web service provided by mpesa. **By [@urandu](#)**

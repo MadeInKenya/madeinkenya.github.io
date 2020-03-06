@@ -1,11 +1,11 @@
 ![Made in Kenya Banner](https://github.com/MadeInKenya/madeinkenya.github.io/blob/master/mik_banner.png "Made in Kenya Banner")
-# \[ 🚧👷‍♀️⛏ Made In Kenya 🔧️😍👷🚧 \] 
+# \[ 🚧👷‍♀️⛏ Made In Kenya 🔧️👷🚧 \] 
 
 We have created this repo so that we can use it to document other resourceful repositories by Kenyans which are currently having a global impact. 
 
 For more details on how to contribute please see our little [Contribution Guidelines](https://github.com/MadeInKenya/madeinkenya.github.io/blob/master/CONTRIBUTING.MD). We hope you will help us make this repo useful in days to come
 
-## Appreciating ... Code Made in Kenya
+## Seriously Kenyan!
 
 ### <p align="center"><a href="#C">C/C++</a> | <a href="#C#">C#</a> | <a href="#CSS">CSS</a> | <a href="#Dart">Dart</a> | <a href="#Go">Go</a> | <a href="#Java">Java</a> | <a href="#JavaScript">JavaScript</a> | <a href="#Kotlin">Kotlin</a> | <a href="#PHP">PHP</a> | <a href="#Python">Python</a> | <a href="#Ruby">Ruby</a> | <a href="#Other">Other</a></p>
 
@@ -58,4 +58,4 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Other"> </a>Other
 * [ReadMe-MasterTemplates](https://github.com/tamzi/ReadMe-MasterTemplates) - How to write good ReadMe docs for all your projects on github.. **By [@tamrefrankhttps://twitter.com/tamrefrank](https://twitter.com/tamrefrank)**
 
-# \[ 🚧👷‍♀️⛏ Work in Progress 🔧️😍👷🚧 \] 
+# \[ 🚧👷‍♀️⛏ Work in Progress 🔧️👷🚧 \] 

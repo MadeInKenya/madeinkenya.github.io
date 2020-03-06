@@ -56,6 +56,6 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Ruby"> </a>Ruby
 
 ## <a name="Other"> </a>Other
-* [ReadMe-MasterTemplates](https://github.com/tamzi/ReadMe-MasterTemplates) - How to write good ReadMe docs for all your projects on github.. **By [@tamrefrankhttps://twitter.com/tamrefrank](https://twitter.com/tamrefrank)**
+* [ReadMe-MasterTemplates](https://github.com/tamzi/ReadMe-MasterTemplates) - How to write good ReadMe docs for all your projects on github.. **By [@tamrefrank](https://twitter.com/tamrefrank)**
 
 # \[ 🚧👷‍♀️⛏ Work in Progress 🔧️👷🚧 \] 

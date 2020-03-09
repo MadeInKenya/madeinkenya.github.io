@@ -12,12 +12,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="C"> </a>C/C++
 * [winapi-code-snippets](https://github.com/JacksiroKe/winapi-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
 
-## <a name="C#"> </a>C#
-* [AnimatedSplashScreens](https://github.com/bunifu-framework/AnimatedSplashScreens) - Awesome set of animated WinForms splash screen designs. **By [@Bunifu](https://twitter.com/Bunifu)**
-* [Base64-Class](https://github.com/KimTooFlex/Base64-Class) - Easy Base 64 encoding and decoding library (text/Objects/Files) Supports serialization - c# - WPF/Winforms/ ASP.Net. **By [@KimTooOfficial](https://twitter.com/KimTooOfficial)**
-* [Finance-Manager---Bunifu-UI](https://github.com/KimTooFlex/Finance-Manager---Bunifu-UI) - Bunifu UI C# winform template . **By [@KimTooOfficial](https://twitter.com/KimTooOfficial)**
-* [SharpClipboard](https://github.com/Willy-Kimura/SharpClipboard) - A library for anonymously monitoring clipboard entries. **By [@WillyKimura](https://twitter.com/WillyKimura)**
-* [Social-APP-Dark-UI](https://github.com/bunifu-framework/Social-APP-Dark-UI) - Social App dark UI built with Bunifu UI Framework Ultimate Bundle. **By [@Bunifu](https://twitter.com/Bunifu)**
+## <a name="C#"> </a>
 
 ## <a name="CSS"> </a>CSS
 
@@ -28,15 +23,10 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## <a name="Go"> </a>Go
 
-## <a name="Java"> </a>Java
-* [AndroidMPesaAPI](https://github.com/jumaallan/AndroidMPesaAPI) - Android MPESA SDK Library to provide smooth MPESA Experience in Android - Dubbed Daraja. **By [@_jumaallan](https://twitter.com/_jumaallan)**
-* [LNMOnlineAndroidSample](https://github.com/safaricom/LNMOnlineAndroidSample) - Lipa Na MPESA Online (STK Push) Android Sample Application. This app demonstrates an e-commerce purchase and checkout process via Mpesa and Daraja smile. **By [@safaricom](#)**
-* [School-Management-System-JavaFX](https://github.com/k33ptoo/School-Management-System-JavaFX) - A sample JavaFX management system GUI. **By [@k33ptoo](https://twitter.com/k33ptoo)**
+## <a name="Java"> </a>
 
 ## <a name="JavaScript"> </a>JavaScript
 * [ngx-translate-nativescript-loader](https://github.com/danvick/ngx-translate-nativescript-loader) - A loader for `ngx-translate` internationalization library that loads locally stored translations for NativeScript Angular. **By [@danvickmiller](https://twitter.com/danvickmiller)**
-* [postgres-express-node-tutorial](https://github.com/waiyaki/postgres-express-node-tutorial) - Repository hosting code for the "Getting Started With NodeJS, Express and Postgres Using Sequelize" blogpost. **By [@waiyaki](#)**
-* [react-startpack](https://github.com/joykare/react-startpack) - Bare minimum setup for a simple react app. Should save you a lot of time. You are welcome!! React-Webpack-Babel. **By [@joykare_](https://twitter.com/joykare_)**
 
 ## <a name="Kotlin"> </a>Kotlin
 * [DevFest2019](https://github.com/jumaallan/devfest2019) - An App which shows how to use Dynamic Modules, MVVM, Room, DI, App Bundles and Internal App Sharing (PlayStore), in Kotlin). **By [@_jumaallan](https://twitter.com/_jumaallan)**
@@ -46,12 +36,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="PHP"> </a>PHP
 * [Laravel Nova Timenow](https://github.com/richardkeep/nova-timenow) - A Laravel Nova card to display the current time from different timezones in the world ⏰. **By [@richard_keep](https://twitter.com/richard_keep)**
 
-## <a name="Python"> </a>Python
-* [Chatz-UI](https://github.com/ANSH3LL/Chatz-UI) - Desktop chat UI with emoji support built with python and pyqt **By [@ansh3ll](https://github.com/ANSH3LL)**
-* [pynbo-blog](https://github.com/Python-Nairobi/pynbo-blog) - Python Nairobi Blog. **By [@pynbo](http://twitter.com/pynbo/)**
-* [mpesa_api](https://github.com/lemaiyan/mpesa_api) - Mpesa B2C, C2B, STKPush Django framework based on the new Api's. **By [@lemaiyan](#)**
-* [mpesa-rest-api](https://github.com/urandu/mpesa-rest-api) - mpesa rest api converts the mpesa api to a RESTful API that is easy for developers to use instead of the current SOAP web service provided by mpesa. **By [@urandu](#)**
-* [pympesa|daraja-mpesa](https://github.com/TralahM/pympesa) - A python wrapper around mpesa's daraja API making it easy for developers to integrate MPESA into their python code.. **By [@TralahM](https://github.com/TralahM)**
+## <a name="Python"> </a>
 
 ## <a name="Ruby"> </a>Ruby
 

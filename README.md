@@ -42,5 +42,6 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## <a name="Other"> </a>Other
 * [ReadMe-MasterTemplates](https://github.com/tamzi/ReadMe-MasterTemplates) - How to write good ReadMe docs for all your projects on github.. **By [@tamrefrank](https://twitter.com/tamrefrank)**
+* [Semantic-UI snippets](https://github.com/liciolentimo/semantic-ui-snippets) -  Semantic-UI snippets Visual Studio Code extension.. **By [@liciolentimo](https://twitter.com/liciolentimo)**
 
 # \[ 🚧👷‍♀️⛏ Work in Progress 🔧️👷🚧 \] 

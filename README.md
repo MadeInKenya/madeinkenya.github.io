@@ -36,7 +36,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## <a name="PHP"> </a>PHP
 * [Laravel Nova Timenow](https://github.com/richardkeep/nova-timenow) - A Laravel Nova card to display the current time from different timezones in the world ⏰. **By [@richard_keep](https://twitter.com/richard_keep)**
-* [Covid-19 Stats](https://github.com/richardkeep/covid-19) - A Laravel app to display Covid-19 Stats from different countries in the world 😷. **By [@richard_keep](https://twitter.com/richard_keep)**
+* [Covid-19 Stats](https://github.com/richardkeep/covid-19) - A small Laravel app to display Covid-19 Stats from different countries in the world. Uses Laravel, Livewire & TailwindCSS 😷. **By [@richard_keep](https://twitter.com/richard_keep)**
 
 ## <a name="Python"> </a>Python
 * [pympesa|daraja-mpesa](https://github.com/TralahM/pympesa) - A python wrapper around mpesa's daraja API making it easy for developers to integrate MPESA into their python code.. **By [@TralahM](https://github.com/TralahM)**

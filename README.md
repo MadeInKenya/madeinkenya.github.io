@@ -41,6 +41,8 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Python"> </a>Python
 * [pympesa|daraja-mpesa](https://github.com/TralahM/pympesa) - A python wrapper around mpesa's daraja API making it easy for developers to integrate MPESA into their python code.. **By [@TralahM](https://github.com/TralahM)**
 
+* [ColorDetect](https://github.com/MarvinKweyu/ColorDetect) - Identify and recognize different colors in an image. With a given image file, get the colors present  and their percentage presence in the image. Save this onto the image itself. **By [@Marvin](https://twitter.com/marvinus_j)**
+
 ## <a name="Ruby"> </a>Ruby
 
 ## <a name="Other"> </a>Other

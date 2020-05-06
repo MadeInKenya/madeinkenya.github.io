@@ -24,6 +24,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Go"> </a>Go
 
 ## <a name="Java"> </a>Java
+[PopNavigator](https://github.com/poppinjay13/PopNavigator) - An animated navigation bar for Android devices, built using Java. **By [@poppinjay13](https://twitter.com/odundo_ian)**
 
 ## <a name="JavaScript"> </a>JavaScript
 * [ngx-translate-nativescript-loader](https://github.com/danvick/ngx-translate-nativescript-loader) - A loader for `ngx-translate` internationalization library that loads locally stored translations for NativeScript Angular. **By [@danvickmiller](https://twitter.com/danvickmiller)**

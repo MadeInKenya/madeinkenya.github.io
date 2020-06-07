@@ -24,10 +24,8 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="Go"> </a>Go
 
 ## <a name="Java"> </a>Java
-[PopNavigator](https://github.com/poppinjay13/PopNavigator) - An animated navigation bar for Android devices, built using Java. **By [@poppinjay13](https://twitter.com/odundo_ian)**
-
+* [PopNavigator](https://github.com/poppinjay13/PopNavigator) - An animated navigation bar for Android devices, built using Java. **By [@poppinjay13](https://twitter.com/odundo_ian)**
 * [Kenyan Counties](https://github.com/MartinMbae/KenyanCounties) - An android library that displays a list of all kenyan counties for selection. Useful in apps that prompts users to provide their location. **By [@iam_martin_mbae](https://twitter.com/iam_martin_mbae)**
-
 * [Kenyan Postal Codes](https://github.com/MartinMbae/KenyaPostalCodesExample) - An android library that displays a list of all kenyan postal codes for selection. **By [@iam_martin_mbae](https://twitter.com/iam_martin_mbae)**
 
 ## <a name="JavaScript"> </a>JavaScript

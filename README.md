@@ -13,6 +13,9 @@ For more details on how to contribute please see our little [Contribution Guidel
 * [winapi-code-snippets](https://github.com/JacksiroKe/winapi-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
 
 ## <a name="C#"> </a>C#
+* [SharpClipboard](https://github.com/Willy-Kimura/SharpClipboard) - A library for anonymously monitoring clipboard entries. **By [@WillyKimura](https://twitter.com/WillyKimura)**
+* [BetterFolderBrowser](https://github.com/Willy-Kimura/BetterFolderBrowser) - A component library that delivers a better folder-browsing and selection experience. **By [@WillyKimura](https://twitter.com/WillyKimura)**
+* [TrialMaker](https://github.com/Willy-Kimura/TrialMaker.Demo) - A simplified and powerful library that provides secure free-trial license generation and copy-protection features for .NET applications. **By [@WillyKimura](https://twitter.com/WillyKimura)**
 
 ## <a name="CSS"> </a>CSS
 

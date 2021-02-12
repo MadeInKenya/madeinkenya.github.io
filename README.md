@@ -35,8 +35,9 @@ For more details on how to contribute please see our little [Contribution Guidel
 * [ngx-translate-nativescript-loader](https://github.com/danvick/ngx-translate-nativescript-loader) - A loader for `ngx-translate` internationalization library that loads locally stored translations for NativeScript Angular. **By [@danvickmiller](https://twitter.com/danvickmiller)**
 
 ## <a name="Kotlin"> </a>Kotlin
-* [ElegantDialog](https://github.com/muigukenneth/ElegantDialog) - A beautiful, customizable and interactive dialog for Android written in Kotlin/Java 😍. **By [@keshwhatsup](https://twitter.com/keshwhatsup)**
+* [Checki](https://github.com/muth0mi/checki) - An Android library to check for network and internet connection changes **By [@muth0mi](https://twitter.com/muth0mi)**
 * [CleanArch-MVVM-ArchComponents](https://github.com/odaridavid/Clean-MVVM-ArchComponents) - An Android app consuming Star Wars API [RESTful].Built with clean architecture + MVVM pattern, Dagger2 , Coroutines ,Architecture Components, Data Binding , Firebase and includes Unit $ UI Tests  **By [@_davidodari](https://twitter.com/_davidodari)**
+* [ElegantDialog](https://github.com/muigukenneth/ElegantDialog) - A beautiful, customizable and interactive dialog for Android written in Kotlin/Java 😍. **By [@keshwhatsup](https://twitter.com/keshwhatsup)**
 * [Neat Android Stepper](https://github.com/ellykits/neat-stepper) - A stepper library for android. Steppers are used to display progress of logically separated sections.[**By [@ENERDSTONE](https://twitter.com/ENERDSTONE)**
 * [Neat Form](https://github.com/ellykits/neat-form) - A library for generating android views using JSON specification you can also perform complex calculations using Rules Engine, validate views and add skip logic (hiding views based on conditions provided) **By [@ENERDSTONE](https://twitter.com/ENERDSTONE)**
 

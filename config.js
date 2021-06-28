@@ -10,6 +10,7 @@ var mik_footer = document.getElementById('mik_footer_groups');
 var grouparr = '{ "groups" : [' +
 '{ "title": "User Groups (Sites)",' +
 '"links": [' +
+        '{ "link_type" : "website", "link_url" : "http://opensource254.co.ke/", "link_label": "Opensource254" },' +
         '{ "link_type" : "website", "link_url" : "#", "link_label": "Android 254" },' +
         '{ "link_type" : "website", "link_url" : "#", "link_label": "Kotlin Kenya" },' +
         '{ "link_type" : "website", "link_url" : "#", "link_label": "Flutter Kenya" },' +

@@ -11,6 +11,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## <a name="C"> </a>C/C++
 * [winapi-code-snippets](https://github.com/JacksiroKe/winapi-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
+* [QtCreator wakatime plugin](https://github.com/Borwe/qtcreator-wakatime) - Wakatime plugin for QtCreator. **By [@BrianOrwe](https://twitter.com/BrianOrwe)**
 
 ## <a name="C#"> </a>C#
 * [SharpClipboard](https://github.com/Willy-Kimura/SharpClipboard) - A library for anonymously monitoring clipboard entries. **By [@WillyKimura](https://twitter.com/WillyKimura)**

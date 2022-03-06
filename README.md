@@ -34,7 +34,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## <a name="JavaScript"> </a>JavaScript
 * [ngx-translate-nativescript-loader](https://github.com/danvick/ngx-translate-nativescript-loader) - A loader for `ngx-translate` internationalization library that loads locally stored translations for NativeScript Angular. **By [@danvickmiller](https://twitter.com/danvickmiller)**
-* [kenya-api](https://github.com/developerphilo/kenya-api) - RESTFul API documenting information about country Kenya(its people, government, institutions, health, culture, energy, finance, infrastructure, geographical sites,population, industries,   tribes, postal_codes e.t.c). **By [@amjohnphilip](https://twitter.com/amjohnphilip)**
+* [kenya-api](https://github.com/developerphilo/kenya-api) - RESTFul API documenting information about country Kenya(its people, government, institutions, health, culture, energy, finance, infrastructure, geographical sites,population,industries, tribes,postal_codes e.t.c). **By [@amjohnphilip](https://twitter.com/amjohnphilip)**
 
 ## <a name="Kotlin"> </a>Kotlin
 * [Checki](https://github.com/muth0mi/checki) - An Android library to check for network and internet connection changes **By [@muth0mi](https://twitter.com/muth0mi)**

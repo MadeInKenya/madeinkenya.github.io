@@ -7,7 +7,7 @@ For more details on how to contribute please see our little [Contribution Guidel
 
 ## Seriously Kenyan!
 
-### <p align="center"><a href="#C">C/C++</a> | <a href="#C#">C#</a> | <a href="#CSS">CSS</a> | <a href="#Dart">Dart</a> | <a href="#Go">Go</a> | <a href="#Java">Java</a> | <a href="#JavaScript">JavaScript</a> | <a href="#Kotlin">Kotlin</a> | <a href="#PHP">PHP</a> | <a href="#Python">Python</a> | <a href="#Ruby">Ruby</a> | <a href="#Other">Other</a></p>
+### <p align="center"><a href="#C">C/C++</a> | <a href="#C#">C#</a> | <a href="#CSS">CSS</a> | <a href="#Dart">Dart</a> | <a href="#Go">Go</a> | <a href="#Java">Java</a> | <a href="#JavaScript">JavaScript</a> | <a href="#Kotlin">Kotlin</a> | <a href="#PHP">PHP</a> | <a href="#Python">Python</a> | <a href="#Ruby">Ruby</a> | <a href="#Rust">Rust</a>  | <a href="#Other">Other</a></p>
 
 ## <a name="C"> </a>C/C++
 * [winapi-code-snippets](https://github.com/JacksiroKe/winapi-code-snippets) - Winapi code snippets. **By [@JacksiroKe](https://twitter.com/JacksiroKe)**
@@ -35,6 +35,8 @@ For more details on how to contribute please see our little [Contribution Guidel
 ## <a name="JavaScript"> </a>JavaScript
 * [ngx-translate-nativescript-loader](https://github.com/danvick/ngx-translate-nativescript-loader) - A loader for `ngx-translate` internationalization library that loads locally stored translations for NativeScript Angular. **By [@danvickmiller](https://twitter.com/danvickmiller)**
 * [kenya-api](https://github.com/developerphilo/kenya-api) - RESTFul API documenting information about country Kenya(its people, government, institutions, health, culture, energy, finance, infrastructure, geographical sites,population,industries, tribes,postal_codes e.t.c). **By [@amjohnphilip](https://twitter.com/amjohnphilip)**
+* [kenyan-banks](https://github.com/dxphilo/kenyan-banks) - An API that provides Kenyan bank logos, slug and code). **By [@amjohnphilip](https://twitter.com/amjohnphilip)**
+* [v-safe-url](https://github.com/dxphilo/v-safe-url) - Safe and secure URL sanitization in Vuejs. **By [@amjohnphilip](https://twitter.com/amjohnphilip)**
 
 ## <a name="Kotlin"> </a>Kotlin
 * [Checki](https://github.com/muth0mi/checki) - An Android library to check for network and internet connection changes **By [@muth0mi](https://twitter.com/muth0mi)**
@@ -52,6 +54,9 @@ For more details on how to contribute please see our little [Contribution Guidel
 * [Chatz-UI](https://github.com/ANSH3LL/Chatz-UI) - Desktop chat UI with emoji support built with python and pyqt - Built by [@ansh3ll](https://github.com/ANSH3LL)
 
 * [ColorDetect](https://github.com/MarvinKweyu/ColorDetect) - Identify and recognize different colors in an image. With a given image file, get the colors present  and their percentage presence in the image. Save this onto the image itself. **By [@Marvin](https://twitter.com/marvinus_j)**
+
+## <a name="Rust"> </a>Rust
+* [motivate](https://github.com/dxphilo/motivate) -⚡ motivate ⚡ - A simple script to print random motivational quotes. **By [@amjohnphilip](https://twitter.com/amjohnphilip)**
 
 ## <a name="Ruby"> </a>Ruby
 
